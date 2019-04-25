@@ -1,0 +1,162 @@
+/*G
+#1db954 green
+#212121 light black
+#121212 black
+#535353 dark gray
+#b3b3b3 gray
+*/
+
+
+/*
+ *
+ * https://www.materialpalette.com/colors
+ * 500 level
+ *
+ */
+
+:root {
+  --sGreen: #1db954;
+  --sBlue: #03a9f4;
+  --sRed: #f44336;
+  --sPurple: #9c27b0;
+  --sYellow: #ffc107;
+  --sBlueGrey: #607d8b;
+
+  --sLightBlack: #414141;
+  --sBlack: #121212;
+  --sDarkGray: #535353;
+  --sGray: #b3b3b3;
+  --sWhite: #FFFFFF;
+  --borderRad: 15px;
+Home / Articles /}
+
+.no-border,div>.no-border{
+  border: none;
+}
+
+.border-white{
+  border-style: solid;
+  border-color: var(--sWhite);
+  border-width: 5px;
+}
+.border-green{
+  border-style: solid;
+  border-color: var(--sGreen);
+  border-width: 5px;
+}
+
+.border-red{
+  border-style: solid;
+  border-color: var(--sRed);
+  border-width: 5px;
+}
+
+.border-blue{
+  border-style: solid;
+  border-color:var(--sBlue);
+  border-width: 5px;
+}
+.border-purple{
+  border-style: solid;
+  border-color: var(--sPurple);
+  border-width: 5px;
+}
+
+.border-black{
+  border-style: solid;
+  border-color: var(--sBlack);
+  border-width: 5px;
+}
+
+.border-blue{
+  border-style: solid;
+  border-color:var(--sBlue);
+  border-width: 5px;
+}
+
+.round-edge,div>.round-edge{
+  border-radius:var(--borderRad);
+  overflow:hidden;
+}
+
+.bg-black{
+  background-color: var(--sBlack);
+}
+.bg-light-black{
+  background-color: var(--sLightBlack);
+}
+.bg-green{
+  background-color: var(--sGreen);
+}
+.bg-blue{
+  background-color: var(--sBlue);
+}
+.bg-red{
+  background-color: var(--sRed);
+}
+.bg-purple{
+  background-color: var(--sPurple);
+}
+.bg-yellow{
+  background-color: var(--sYellow);
+}
+.bg-blue-grey{
+  background-color: var(--sBlueGrey);
+}
+.bg-dark-grey{
+  background-color: var(--sDarkGray);
+}
+.bg-gray{
+  background-color: var(--sGray);
+}
+.bg-white{
+  background-color: var(--sWhite);
+}
+.txt-black{
+  color: var(--sBlack) !important;
+}
+.txt-white{
+  color: var(--sWhite) !important;
+}
+.txt-blue{
+  color: var(--sBlue) !important;
+}
+.txt-red{
+  color: var(--sRed) !important;
+}
+.txt-green{
+  color: var(--sGreen) !important;
+}
+.txt-purple{
+  color: var(--sPurple) !important;
+}
+.txt-yellow{
+  color: var(--sYellow) !important;
+}
+.txt-blue-grey{
+  color: var(--sBlueGrey) !important;
+}
+.float-right{
+  float:right;
+}
+.float-left{
+  float:left;
+}
+
+.list{
+  font-size:1.35em;
+}
+
+/*
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+*/
